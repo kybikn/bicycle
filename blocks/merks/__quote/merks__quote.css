@@ -1,0 +1,11 @@
+.merks__quote {
+  grid-area: quote;
+  margin: 0;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 44px;
+  letter-spacing: -0.5px;
+  color: #151515;
+}
