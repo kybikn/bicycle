@@ -1,0 +1,7 @@
+.bicycles__img {
+  margin-bottom: 16px;
+  padding: 30px 20px 20px;
+  border-radius: 20px;
+  box-shadow: -20px 60px 220px rgba(0, 0, 0, 0.44);
+  background: #f4f4f4;
+}

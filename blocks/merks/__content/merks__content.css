@@ -1,0 +1,10 @@
+.merks__content {
+  /* height: 460px; */
+  display: grid;
+  grid-column-gap: 80px;
+  grid-template-rows: 390px 1fr;
+  grid-template-columns: 650px 1fr;
+  grid-template-areas:
+    "image quote"
+    "image author";
+}
