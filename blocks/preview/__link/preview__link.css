@@ -1,0 +1,13 @@
+.preview__link {
+  max-width: 160px;
+  padding: 16px 10px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.29;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #fff;
+  background-color: #24b47e;
+  border-radius: 4px;
+}

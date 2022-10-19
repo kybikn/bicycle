@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,25 +8,30 @@
     <link rel="icon" href="./images/favicon.ico">
     <title>Bicycle</title>
 </head>
-
 <body>
-    <div class="page">
-        <header class="header">
-            <nav>
-                <ul class="header__links">
-                    <li class="header__li"><a href="#highway" class="header__link">Покрытия и градиенты</a></li>
-                    <li class="header__li"><a href="#bicycles" class="header__link">Велосипеды</a></li>
-                    <li class="header__li"><a href="#training" class="header__link">Тренировки</a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
+  <div class="page">
+    <header class="header">
+      <nav>
+        <ul class="header__links">
+          <li class="header__li"><a href="#highway" class="header__link">Покрытия и градиенты</a></li>
+          <li class="header__li"><a href="#bicycles" class="header__link">Велосипеды</a></li>
+          <li class="header__li"><a href="#training" class="header__link">Тренировки</a></li>
+        </ul>
+      </nav>
+    </header>
 
-        <main class="main">
-            <section class="preview">
-                <h1>Шоссе, ТТ
-                    и Грэвел</h1>
-            </section>
+    <main class="main">
+      <section class="preview">
+        <div class="preview__text">
+          <h1 class="preview__title">Шоссе, ТТ и Грэвел</h1>
+          <p class="preview__subtitle">
+            Триатлонные старты, горные серпантины или грейвел заезды по живописным маршрутам – нужно только определиться с выбором велосипеда и отправиться в путь.
+          </p>
+          <a href="#" target="_blank" class="preview__link">Подробнее</a>
+          <p class="preview__brand">Cannondale Systemsix</p>
+        </div>
+        <img src="./images/manuel-will-ZYE-LqEBtbo-unsplash.jpg" alt="Живописный маршрут" class="preview__img">
+      </section>
 
             <section class="merks" aria-label="Секция Меркс">
                 <article class="merks__content" aria-label="Блок с цитатой">
@@ -41,9 +45,20 @@
                 </article>
             </section>
 
-            <section class="highway" id="highway">
-                <h2>Шоссе</h2>
-            </section>
+      <section class="highway" id="highway">
+        <h2 class="highway__title">Шоссе</h2>
+        <p class="highway__subtitle">
+          На шоссейном велосипеде можно ездить по асфальту на разных градиентах: будь то горы или равнины. Гонки проходят в командном пелотоне, но тренироваться можно и самостоятельно.
+        </p>
+        <ul class="highway__gallery">
+          <li><img src="./images/david-dvoracek-o1hp3gufcFM-unsplash.jpg" alt="" class="highway__gallery-img"></li>
+          <li><img src="./images/sheldon-thompson-CXET9y0BmkE-unsplash.jpg" alt="" class="highway__gallery-img"></li>
+        </ul>
+        <div class="highway__gallery-btns">
+          <button class="highway__gallery-btn highway__gallery-btn_direction_left"></button>
+          <button class="highway__gallery-btn highway__gallery-btn_direction_right"></button>
+        </div>
+      </section>
 
             <section class="bicycles" id="bicycles">
                 <div class="bicycles__header">

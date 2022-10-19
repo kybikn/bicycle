@@ -1,0 +1,9 @@
+.highway__gallery-btn_direction_right::before {
+  content: '';
+  background: url(../../../../images/strelka.svg) no-repeat center;
+  position: absolute;
+  top: 0;
+  left: 3px;
+  right: 0;
+  bottom: 0;
+}
