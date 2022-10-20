@@ -1,0 +1,9 @@
+.main-links {
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  transition: all .5s;
+}
+
+.main-links:hover {
+  color: #24b473;
+}

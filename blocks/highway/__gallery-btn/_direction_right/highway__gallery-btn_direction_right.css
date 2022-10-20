@@ -1,6 +1,7 @@
 .highway__gallery-btn_direction_right::before {
   content: "";
   background: url(../../../../images/arrow.svg) no-repeat center;
+  transform: scale(1, -1);
   position: absolute;
   top: 0;
   left: 3px;

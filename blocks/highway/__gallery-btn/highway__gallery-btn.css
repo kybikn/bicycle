@@ -6,4 +6,14 @@
   border-radius: 50%;
   background: #ebebeb;
   position: relative;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+}
+
+.highway__gallery-btn:hover {
+  background-color: #d1d1d1;
+}
+
+.highway__gallery-btn:active {
+  transform: scale(1.1);
 }
