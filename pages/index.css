@@ -73,3 +73,22 @@
 @import url(../blocks/footer/__input/footer__input.css);
 @import url(../blocks/footer/__input-text/footer__input-text.css);
 @import url(../blocks/footer/__text/footer__text.css);
+
+
+/* <section class="merks" aria-label="Секция Меркс">
+        <article class="merks__content" aria-label="Блок с цитатой">
+          <!-- <picture class="merks__img">
+            <source media="(max-width: 1440px)" srcset="./images/bicycler.jpg">
+            <source media="(max-width: 320px)" srcset="./images/bicycler-adaptive.jpg">
+            <img src="./images/bicycler-adaptive.jpg" alt="">
+          </picture> -->
+          <img src="./images/bicycler.jpg" alt="одинокий велосипедист на горной дороге" class="merks__img">
+          <!-- <img src="./images/bicycler-adaptive.jpg" alt="одинокий велосипедист на горной дороге" class="merks__img"> -->
+          <blockquote class="merks__quote">«Катайся много или мало, долго или коротко, как хочешь - но
+            катайся»</blockquote>
+          <div class="merks__text">
+            <p class="merks__quote-author">Эдди Меркс</p>
+            <p class="merks__quote-author-subline">Велогонщик</p>
+          </div>
+        </article>
+      </section> */
