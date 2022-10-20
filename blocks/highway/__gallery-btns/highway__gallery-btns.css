@@ -1,5 +1,5 @@
 .highway__gallery-btns {
-  padding-top: 50px;
+  margin: 50px 0 0;
   display: flex;
   column-gap: 20px;
 }
