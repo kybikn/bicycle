@@ -6,9 +6,12 @@
 @import url(../blocks/page/page.css);
 /* Header */
 @import url(../blocks/header/header.css);
+@import url(../blocks/header/__nav/header__nav.css);
 @import url(../blocks/header/__links/header__links.css);
 @import url(../blocks/header/__li/header__li.css);
 @import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/hamburger/hamburger.css);
+@import url(../blocks/hamburger/__line/hamburger__line.css);
 /* Preview */
 @import url(../blocks/preview/preview.css);
 @import url(../blocks/preview/__text/preview__text.css);
@@ -45,8 +48,16 @@
 @import url(../blocks/bicycles/__link-active/bicycles__link-active.css);
 @import url(../blocks/bicycles/__li/bicycles__li.css);
 @import url(../blocks/bicycles/__card/bicycles__card.css);
+@import url(../blocks/bicycles/__card-adaptive/bicycles__card-adaptive.css);
+@import url(../blocks/bicycles/__select/bicycles__select.css);
+@import url(../blocks/bicycles/__list/bicycles__list.css);
 @import url(../blocks/bicycles/__img/bicycles__img.css);
+@import url(../blocks/bicycles/__img-adaptive/bicycles__img-adaptive.css);
 @import url(../blocks/bicycles/__text-link/bicycles__text-link.css);
+@import url(../blocks/bicycles/__text-link-adaptive/bicycles__text-link-adaptive.css);
+@import url(../blocks/circles/circles.css);
+@import url(../blocks/circles/__dot/circles__dot.css);
+@import url(../blocks/circles/__dot/_active/circles__dot_active.css);
 /* Footer */
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__title/footer__title.css);

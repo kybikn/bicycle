@@ -1,0 +1,8 @@
+@media screen and (max-width: 320px) {
+  .bicycles__img-adaptive {
+    display: block;
+    max-width: 254px;
+    margin-bottom: 20px;
+    padding: 15px 15px 37px;
+  }
+}

@@ -1,3 +1,11 @@
 .merks__image {
   grid-area: image;
+  max-width: 460px;
+}
+
+@media screen and (max-width: 320px) {
+  .merks__image {
+    max-width: 284px;
+    /* max-height: 204px; */
+  }
 }

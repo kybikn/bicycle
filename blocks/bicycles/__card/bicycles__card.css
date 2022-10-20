@@ -1,4 +1,10 @@
 .bicycles__card {
   margin-top: 54px;
-  padding-top: 56px;
+  padding-top: 66px;
+}
+
+@media screen and (max-width: 320px) {
+  .bicycles__card {
+    display: none;
+  }
 }

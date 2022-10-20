@@ -1,11 +1,11 @@
 .bicycles__link {
-  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;
   text-decoration: none;
   cursor: pointer;
-  color: #222222;
-  opacity: 0.7;
+  color: #616161;
+  /* color: #222222;
+  opacity: 0.7; */
 }

@@ -9,3 +9,12 @@
   cursor: pointer;
   background: #efefef;
 }
+
+@media screen and (max-width: 320px) {
+  .footer__input {
+    margin-bottom: 85px;
+    padding-left: 0;
+    height: 50px;
+    width: 284px;
+  }
+}

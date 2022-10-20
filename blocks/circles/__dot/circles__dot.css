@@ -1,0 +1,10 @@
+@media screen and (max-width: 320px) {
+  .circles__dot {
+    width: 4px;
+    height: 4px;
+    background: #cacaca;
+    border-radius: 50%;
+    cursor: pointer;
+    /* transition: 1s; */
+  }
+}
