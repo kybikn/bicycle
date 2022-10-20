@@ -58,6 +58,7 @@
 @import url(../blocks/circles/circles.css);
 @import url(../blocks/circles/__dot/circles__dot.css);
 @import url(../blocks/circles/__dot/_active/circles__dot_active.css);
+/* @import url(../blocks/bicycles/slider/slider.css); */
 /* Footer */
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__title/footer__title.css);
