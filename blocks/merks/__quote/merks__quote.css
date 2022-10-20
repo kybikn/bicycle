@@ -9,7 +9,7 @@
 }
 
 @media screen and (max-width: 320px) {
-  .merks__quote-author {
+  .merks__quote {
     font-size: 23px;
     line-height: 29px;
   }
