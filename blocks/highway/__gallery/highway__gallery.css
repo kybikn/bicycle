@@ -1,19 +1,31 @@
 .highway__gallery {
-  margin: 0;
+  margin: 80px 0 0;
   padding: 0;
   list-style: none;
   display: flex;
   column-gap: 40px;
   position: relative;
+  grid-column: 1 / -1;
 }
 
 .highway__gallery::after {
   content: "";
   background: url(../../../images/gallery_green.svg) no-repeat;
-  background-position: bottom 16px left 0;
+  background-position: bottom 20px left 0;
   position: absolute;
   top: 0;
   right: 0;
-  bottom: 16px;
+  bottom: 0;
   left: 0;
+}
+
+@media screen and (max-width: 320px) {
+  .highway__gallery {
+    margin: 40px 0 0;
+  }
+
+  .highway__gallery::after {
+    background: url(../../../images/gallery_green_adaptive.svg) no-repeat;
+    background-position: bottom 17px left 0;
+  }
 }

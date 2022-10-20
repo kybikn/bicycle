@@ -19,6 +19,7 @@
 @import url(../blocks/preview/__title/preview__title.css);
 @import url(../blocks/preview/__subtitle/preview__subtitle.css);
 @import url(../blocks/preview/__link/preview__link.css);
+@import url(../blocks/invisible/invisible.css);
 @import url(../blocks/preview/__brand/preview__brand.css);
 @import url(../blocks/preview/__img/preview__img.css);
 /* Merks */

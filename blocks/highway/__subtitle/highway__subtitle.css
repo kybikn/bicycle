@@ -1,8 +1,19 @@
 .highway__subtitle {
   max-width: 460px;
-  margin: 50px 0 80px;
+  margin: 50px 0 0;
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;
   color: #616161;
+  grid-column: 1;
+}
+
+@media screen and (max-width: 320px) {
+  .highway__subtitle {
+    max-width: 284px;
+    margin: 40px 0 0;
+    font-size: 12px;
+    line-height: 1.5;
+    grid-column: 1 / -1;
+  }
 }
