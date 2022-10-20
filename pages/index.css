@@ -7,6 +7,7 @@
 /* Header */
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__nav/header__nav.css);
+@import url(../blocks/main-links/main-links.css);
 @import url(../blocks/header/__links/header__links.css);
 @import url(../blocks/header/__li/header__li.css);
 @import url(../blocks/header/__link/header__link.css);
@@ -58,6 +59,14 @@
 @import url(../blocks/circles/circles.css);
 @import url(../blocks/circles/__dot/circles__dot.css);
 @import url(../blocks/circles/__dot/_active/circles__dot_active.css);
+/* Training */
+@import url(../blocks/training/training.css);
+@import url(../blocks/training/__text/training__text.css);
+@import url(../blocks/training/__title/training__title.css);
+@import url(../blocks/training/__subtitle/training__subtitle.css);
+@import url(../blocks/training/__apps/training__apps.css);
+@import url(../blocks/training/__app-link/training__app-link.css);
+@import url(../blocks/training/__img/training__img.css);
 /* Footer */
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__title/footer__title.css);

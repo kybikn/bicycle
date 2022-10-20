@@ -1,6 +1,7 @@
 .preview__link {
   max-width: 160px;
   padding: 16px 10px;
+  display: block;
   text-decoration: none;
   font-weight: 600;
   font-size: 14px;
@@ -14,7 +15,7 @@
 
 .preview__link:hover {
   box-shadow: 0 0 0 10px rgba(9, 206, 75, 0);
-  animation: pulse 2s;
+  animation: pulse 1.3s;
 }
 
 @keyframes pulse {

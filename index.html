@@ -15,9 +15,9 @@
     <header class="header">
       <nav class="header__nav">
         <ul class="header__links">
-          <li class="header__li"><a href="#highway" class="header__link">Покрытия и градиенты</a></li>
-          <li class="header__li"><a href="#bicycles" class="header__link">Велосипеды</a></li>
-          <li class="header__li"><a href="#training" class="header__link">Тренировки</a></li>
+          <li class="header__li"><a href="#highway" class="header__link main-links">Покрытия и градиенты</a></li>
+          <li class="header__li"><a href="#bicycles" class="header__link main-links">Велосипеды</a></li>
+          <li class="header__li"><a href="#training" class="header__link main-links">Тренировки</a></li>
         </ul>
       </nav>
       <div class="hamburger">
@@ -57,8 +57,8 @@
           проходят в командном пелотоне, но тренироваться можно и самостоятельно.
         </p>
         <ul class="highway__gallery">
-          <li><img src="./images/david-dvoracek.jpg" alt="" class="highway__gallery-img"></li>
-          <li><img src="./images/sheldon-thompson.jpg" alt="" class="highway__gallery-img"></li>
+          <li><img src="./images/david-dvoracek.jpg" alt="Горная дорога" class="highway__gallery-img"></li>
+          <li><img src="./images/sheldon-thompson.jpg" alt="Лесная дорога" class="highway__gallery-img"></li>
         </ul>
         <div class="highway__gallery-btns">
           <button class="highway__gallery-btn highway__gallery-btn_direction_left"></button>
@@ -109,7 +109,17 @@
         </div>
       </section>
       <section class="training" id="training">
-        <h2>Тренировки</h2>
+        <div class="training__text">
+          <h2 class="training__title">Тренировки</h2>
+          <p class="training__subtitle">
+            Чтобы найти маршрут для тренировки можно воспользоваться сервисом Komoot, а записать эти тренировки поможет приложение Strava, а также это приложение позволит построить тренировочный план.
+          </p>
+          <ul class="training__apps">
+            <li><a href="https://www.strava.com" target="_blank" class="training__app-link main-links">Strava</a></li>
+            <li><a href="https://www.komoot.com" target="_blank" class="training__app-link main-links">Komoot</a></li>
+          </ul>
+        </div>
+        <img src="./images/nicolas-solerieu.jpg" alt="Дорога в неизвестность" class="training__img">
       </section>
     </main>
     <footer class="footer">
