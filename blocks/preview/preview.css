@@ -1,4 +1,13 @@
 .preview {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: min-content 1fr;
+  align-items: start;
+}
+
+@media screen and (max-width: 320px) {
+  .preview {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, min-content);
+  }
 }

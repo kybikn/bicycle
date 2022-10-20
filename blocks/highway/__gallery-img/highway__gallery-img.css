@@ -1,1 +1,9 @@
+.highway__gallery-img {
+  /* для резины */
+}
 
+@media screen and (max-width: 320px) {
+  .highway__gallery-img {
+    width: 284px;
+  }
+}

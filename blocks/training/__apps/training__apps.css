@@ -5,3 +5,11 @@
   display: flex;
   gap: 30px;
 }
+
+@media screen and (max-width: 320px) {
+  .training__apps {
+    margin: 40px 0 0;
+    font-size: 14px;
+    line-height: 1.43;
+  }
+}

@@ -1,5 +1,15 @@
 .training {
   padding: 150px 120px 120px;
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: min-content 1fr;
+  align-items: start;
+}
+
+@media screen and (max-width: 320px) {
+  .training {
+    padding: 80px 18px 60px;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, min-content);
+  }
 }

@@ -25,3 +25,9 @@
     color: #09c63b;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .preview__link {
+    padding: 14px 62px 13px;
+  }
+}

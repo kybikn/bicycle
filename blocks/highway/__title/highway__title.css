@@ -6,3 +6,11 @@
   line-height: 1.09;
   letter-spacing: -0.5px;
 }
+
+@media screen and (max-width: 320px) {
+  .highway__title {
+    max-width: 108px;
+    font-size: 32px;
+    line-height: 1.25;
+  }
+}

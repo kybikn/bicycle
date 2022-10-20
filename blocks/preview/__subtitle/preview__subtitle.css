@@ -6,3 +6,11 @@
   line-height: 1.56;
   color: #616161;
 }
+
+@media screen and (max-width: 320px) {
+  .preview__subtitle {
+    max-width: 284px;
+    font-size: 12px;
+    line-height: 1.5;
+  }
+}

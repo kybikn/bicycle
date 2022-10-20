@@ -17,3 +17,11 @@
 .highway__gallery-btn:active {
   transform: scale(1.1);
 }
+
+@media screen and (max-width: 320px) {
+  .highway__gallery-btn {
+    width: 24px;
+    height: 24px;
+  }
+}
+
