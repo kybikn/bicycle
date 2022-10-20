@@ -8,7 +8,7 @@
 }
 
 .preview__brand::after {
-  content: '';
+  content: "";
   width: 132px;
   height: 2px;
   background-color: #d7d4d4;

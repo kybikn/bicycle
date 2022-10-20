@@ -11,3 +11,15 @@
   background-color: #24b47e;
   border-radius: 4px;
 }
+
+.preview__link:hover {
+  box-shadow: 0 0 0 10px rgba(9, 206, 75, 0);
+  animation: pulse 2s;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 #09c63b;
+    color: #09c63b;
+  }
+}

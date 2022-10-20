@@ -1,6 +1,6 @@
 .highway__gallery-btn_direction_left::before {
-  content: '';
-  background: url(../../../../images/strelka.svg) no-repeat center;
+  content: "";
+  background: url(../../../../images/arrow.svg) no-repeat center;
   transform: scale(-1, 1);
   position: absolute;
   top: 0;

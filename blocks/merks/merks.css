@@ -2,3 +2,9 @@
   padding: 120px 120px 60px;
   margin: 0 auto;
 }
+
+@media screen and (max-width: 320px) {
+  .merks {
+    padding: 60px 18px 40px;
+  }
+}

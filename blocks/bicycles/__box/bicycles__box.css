@@ -1,5 +1,12 @@
 .bicycles__box {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   gap: 30px;
+}
+
+@media screen and (max-width: 320px) {
+  .bicycles__box {
+    flex-direction: column;
+    gap: 0;
+  }
 }

@@ -1,111 +1,132 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./pages/index.css">
-    <link rel="icon" href="./images/favicon.ico">
-    <title>Bicycle</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./pages/index.css">
+  <link rel="icon" href="./images/favicon.ico">
+  <title>Bicycle</title>
 </head>
-<body>
+
+<body class="root">
   <div class="page">
     <header class="header">
-      <nav>
+      <nav class="header__nav">
         <ul class="header__links">
           <li class="header__li"><a href="#highway" class="header__link">Покрытия и градиенты</a></li>
           <li class="header__li"><a href="#bicycles" class="header__link">Велосипеды</a></li>
           <li class="header__li"><a href="#training" class="header__link">Тренировки</a></li>
         </ul>
       </nav>
+      <div class="hamburger">
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+      </div>
     </header>
-
     <main class="main">
       <section class="preview">
         <div class="preview__text">
           <h1 class="preview__title">Шоссе, ТТ и Грэвел</h1>
           <p class="preview__subtitle">
-            Триатлонные старты, горные серпантины или грейвел заезды по живописным маршрутам – нужно только определиться с выбором велосипеда и отправиться в путь.
+            Триатлонные старты, горные серпантины или грейвел заезды по живописным маршрутам – нужно только определиться
+            с выбором велосипеда и отправиться в путь.
           </p>
           <a href="#" target="_blank" class="preview__link">Подробнее</a>
           <p class="preview__brand">Cannondale Systemsix</p>
         </div>
-        <img src="./images/manuel-will-ZYE-LqEBtbo-unsplash.jpg" alt="Живописный маршрут" class="preview__img">
+        <img src="./images/manuel-will.jpg" alt="Живописный маршрут" class="preview__img">
       </section>
-
-            <section class="merks" aria-label="Секция Меркс">
-                <article class="merks__content" aria-label="Блок с цитатой">
-                    <img src="./images/bicycler.jpg" alt="одинокий велосипедист на горной дороге" class="merks__img">
-                    <blockquote class="merks__quote">«Катайся много или мало, долго или коротко, как хочешь - но
-                        катайся»</blockquote>
-                    <div class="merks__text">
-                        <p class="merks__quote-author">Эдди Меркс</p>
-                        <p class="merks__quote-author-subline">Велогонщик</p>
-                    </div>
-                </article>
-            </section>
-
+      <section class="merks" aria-label="Секция Меркс">
+        <article class="merks__content" aria-label="Блок с цитатой">
+          <!-- <picture class="merks__img">
+            <source media="(max-width: 1440px)" srcset="./images/bicycler.jpg">
+            <source media="(max-width: 320px)" srcset="./images/bicycler-adaptive.jpg">
+            <img src="./images/bicycler-adaptive.jpg" alt="">
+          </picture> -->
+          <img src="./images/bicycler.jpg" alt="одинокий велосипедист на горной дороге" class="merks__img">
+          <!-- <img src="./images/bicycler-adaptive.jpg" alt="одинокий велосипедист на горной дороге" class="merks__img"> -->
+          <blockquote class="merks__quote">«Катайся много или мало, долго или коротко, как хочешь - но
+            катайся»</blockquote>
+          <div class="merks__text">
+            <p class="merks__quote-author">Эдди Меркс</p>
+            <p class="merks__quote-author-subline">Велогонщик</p>
+          </div>
+        </article>
+      </section>
       <section class="highway" id="highway">
         <h2 class="highway__title">Шоссе</h2>
         <p class="highway__subtitle">
-          На шоссейном велосипеде можно ездить по асфальту на разных градиентах: будь то горы или равнины. Гонки проходят в командном пелотоне, но тренироваться можно и самостоятельно.
+          На шоссейном велосипеде можно ездить по асфальту на разных градиентах: будь то горы или равнины. Гонки
+          проходят в командном пелотоне, но тренироваться можно и самостоятельно.
         </p>
         <ul class="highway__gallery">
-          <li><img src="./images/david-dvoracek-o1hp3gufcFM-unsplash.jpg" alt="" class="highway__gallery-img"></li>
-          <li><img src="./images/sheldon-thompson-CXET9y0BmkE-unsplash.jpg" alt="" class="highway__gallery-img"></li>
+          <li><img src="./images/david-dvoracek.jpg" alt="" class="highway__gallery-img"></li>
+          <li><img src="./images/sheldon-thompson.jpg" alt="" class="highway__gallery-img"></li>
         </ul>
         <div class="highway__gallery-btns">
           <button class="highway__gallery-btn highway__gallery-btn_direction_left"></button>
           <button class="highway__gallery-btn highway__gallery-btn_direction_right"></button>
         </div>
       </section>
-
-            <section class="bicycles" id="bicycles">
-                <div class="bicycles__header">
-                    <h2 class="bicycles__title">Велосипеды</h2>
-                    <nav class="a">
-                        <ul class="bicycles__links">
-                            <li class="bicycles__li"><a href="#" class="bicycles__link-active">Шоссе</a></li>
-                            <li class="bicycles__li"><a href="#" class="bicycles__link">Грэвел</a></li>
-                            <li class="bicycles__li"><a href="#" class="bicycles__link">TT</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-                <div class="bicycles__box">
-                    <div class="bicycles__card">
-                        <img src="./images/bike1.png" alt="велосипед1" class="bicycles__img">
-                        <a href="https://www.sigmasports.com/item/Cervelo/Caledonia-5-Ultegra-Disc-Road-Bike-2021/RDEN"
-                            class="bicycles__text bicycles__text-link" target="_blank">Cervelo Caledonia-5</a>
-                    </div>
-                    <div class="bicycles__card">
-                        <img src="./images/bike2.png" alt="велосипед2" class="bicycles__img">
-                        <a href="https://www.sigmasports.com/item/Cannondale/SystemSix-HiMOD-Ultegra-Di2-Disc-Road-Bike-2021/R82J"
-                            class="bicycles__text bicycles__text-link" target="_blank">Cannondale Systemsix
-                            Himod</a>
-                    </div>
-                    <div class="bicycles__card">
-                        <img src="./images/bike3.png" alt="велосипед3" class="bicycles__img">
-                        <a href="https://www.sigmasports.com/item/Trek/Domane-SL-7-Force-eTap-AXS-Disc-Road-Bike-2021/RULF"
-                            class="bicycles__text bicycles__text-link" target="_blank">Trek Domane SL-7</a>
-                    </div>
-                </div>
-            </section>
-
-            <section class="training" id="training">
-                <h2>Тренировки</h2>
-            </section>
-
-        </main>
-        <footer class="footer">
-            <h3 class="footer__title">Подпишитесь на рассылку —</h3>
-            <form>
-                <input type="email" name="email" class="footer__input footer__input-text" placeholder="Ваш e-mail"
-                    autocomplete="on" required>
-            </form>
-            <p class="footer__text">© Road Club 2021</p>
-        </footer>
-    </div>
+      <section class="bicycles" id="bicycles">
+        <div class="bicycles__header">
+          <h2 class="bicycles__title">Велосипеды</h2>
+          <nav class="a">
+            <ul class="bicycles__links">
+              <li class="bicycles__li"><a href="#" class="bicycles__link bicycles__link-active">Шоссе</a></li>
+              <li class="bicycles__li"><a href="#" class="bicycles__link">Грэвел</a></li>
+              <li class="bicycles__li"><a href="#" class="bicycles__link">TT</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="bicycles__box">
+          <div class="bicycles__card bicycles__card-adaptive">
+            <div class="bicycles__select">
+              <select class="bicycles__list">
+                <option>Шоссе</option>
+                <option>Грэвел</option>
+                <option>TT</option>
+              </select>
+            </div>
+            <img src="./images/bike1.png" alt="велосипед1" class="bicycles__img bicycles__img-adaptive scale">
+            <a href="https://www.sigmasports.com/item/Cervelo/Caledonia-5-Ultegra-Disc-Road-Bike-2021/RDEN"
+              class="bicycles__text-link bicycles__text-link-adaptive" target="_blank">Cervelo Caledonia-5</a>
+          </div>
+          <div class="bicycles__card">
+            <img src="./images/bike2.png" alt="велосипед2" class="bicycles__img">
+            <a href="https://www.sigmasports.com/item/Cannondale/SystemSix-HiMOD-Ultegra-Di2-Disc-Road-Bike-2021/R82J"
+              class="bicycles__text-link" target="_blank">Cannondale Systemsix
+              Himod</a>
+          </div>
+          <div class="bicycles__card">
+            <img src="./images/bike3.png" alt="велосипед3" class="bicycles__img">
+            <a href="https://www.sigmasports.com/item/Trek/Domane-SL-7-Force-eTap-AXS-Disc-Road-Bike-2021/RULF"
+              class="bicycles__text-link" target="_blank">Trek Domane SL-7</a>
+          </div>
+          <div class="circles">
+            <span class="circles__dot circles__dot_active"></span>
+            <span class="circles__dot active"></span>
+            <span class="circles__dot"></span>
+          </div>
+        </div>
+      </section>
+      <section class="training" id="training">
+        <h2>Тренировки</h2>
+      </section>
+    </main>
+    <footer class="footer">
+      <h3 class="footer__title">Подпишитесь на рассылку —</h3>
+      <form>
+        <input type="email" name="email" class="footer__input footer__input-text" placeholder="Ваш e-mail"
+          autocomplete="on" required>
+      </form>
+      <p class="footer__text">© Road Club 2021</p>
+    </footer>
+  </div>
 </body>
 
 </html>

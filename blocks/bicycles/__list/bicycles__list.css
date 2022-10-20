@@ -1,0 +1,20 @@
+.bicycles__list {
+  display: none;
+}
+
+@media screen and (max-width: 320px) {
+  .bicycles__list {
+    display: block;
+    width: 114px;
+    height: 30px;
+    padding: 8px;
+    margin-bottom: 20px;
+    background: none;
+    border: 1px solid #e3e3e3;
+    border-radius: 2px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 14px;
+  }
+}

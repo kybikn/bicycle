@@ -1,10 +1,15 @@
 .bicycles__text-link {
   margin: 22px 0 0 5px;
-  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
   line-height: 22px;
   text-decoration: none;
   color: #151515;
+}
+
+@media screen and (max-width: 320px) {
+  .bicycles__text-link {
+    display: none;
+  }
 }
