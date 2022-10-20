@@ -1,6 +1,6 @@
 .merks__img {
   grid-area: image;
-  max-width: 460px;
+  max-width: 650px;
 }
 
 @media screen and (max-width: 320px) {

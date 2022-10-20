@@ -1,0 +1,9 @@
+.preview__content {
+  padding: 0 0 209px 120px;
+}
+
+@media screen and (max-width: 320px) {
+  .preview__content {
+    padding: 40px 18px 0;
+  }
+}

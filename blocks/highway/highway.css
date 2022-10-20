@@ -9,7 +9,7 @@
 @media screen and (max-width: 320px) {
   .highway {
     max-width: 100%;
-    padding: 80px 18px 40px;
+    padding: 35px 18px 40px;
     grid-row: repeat(3, min-content);
   }
 }
