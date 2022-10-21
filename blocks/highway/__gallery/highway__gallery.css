@@ -1,9 +1,8 @@
 .highway__gallery {
-  margin: 0 0 50px 0;
+  margin: 80px 0 0;
   padding: 0;
   list-style: none;
   display: flex;
-  flex-wrap: wrap;
   column-gap: 40px;
   position: relative;
   grid-column: 1 / -1;
@@ -22,7 +21,7 @@
 
 @media screen and (max-width: 320px) {
   .highway__gallery {
-    margin: 0 0 25px 0;
+    margin: 40px 0 0;
   }
 
   .highway__gallery::after {
