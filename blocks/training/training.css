@@ -4,6 +4,7 @@
   grid-template-columns: 1fr 1fr;
   grid-template-rows: min-content 1fr;
   align-items: start;
+  position: relative;
 }
 
 @media screen and (max-width: 1068px) {
@@ -16,5 +17,18 @@
 @media screen and (max-width: 590px) {
   .training {
     padding: 77px 18px 60px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .training::before {
+    content: '';
+    width: 284px;
+    position: absolute;
+    top: 30px;
+    right: 18px;
+    bottom: 0;
+    left: 18px;
+    border-top: 1px solid #e3e3e3;
   }
 }

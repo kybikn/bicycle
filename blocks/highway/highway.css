@@ -4,6 +4,7 @@
   grid-template-columns: 1fr 1fr;
   grid-row: repeat(4, min-content);
   align-items: start;
+  position: relative;
 }
 
 @media screen and (max-width: 590px) {
@@ -16,5 +17,16 @@
   .highway {
     max-width: 100%;
     grid-row: repeat(3, min-content);
+  }
+
+  .highway::before {
+    content: '';
+    width: 284px;
+    position: absolute;
+    top: 80px;
+    right: 18px;
+    bottom: 0;
+    left: 18px;
+    border-top: 1px solid #e3e3e3;
   }
 }
