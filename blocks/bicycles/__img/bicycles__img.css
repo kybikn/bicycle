@@ -2,7 +2,6 @@
   margin-bottom: 16px;
   padding: 20px;
   border-radius: 20px;
-  /* box-shadow: -20px 60px 220px rgba(0, 0, 0, 0.44); */
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.14);
   transition: 0.5s;
   background: #f4f4f4;
@@ -12,12 +11,6 @@
   transform: scale(1.05);
 }
 
-/* @media screen and (max-width: 1024px) {
-  .bicycles__img {
-    max-width: 290px;
-    padding: 10px;
-  }
-} */
 @media screen and (max-width: 590px) {
   .bicycles__img {
     display: none;

@@ -1,7 +1,10 @@
 .merks__content {
+  display: -ms-grid;
   display: grid;
   grid-column-gap: 80px;
+  -ms-grid-rows: 390px 1fr;
   grid-template-rows: 390px 1fr;
+  -ms-grid-columns: 650px 80px minmax(210px, 1fr);
   grid-template-columns: 650px minmax(210px, 1fr);
   grid-template-areas:
     "image quote"
@@ -15,7 +18,10 @@
       "image"
       "quote"
       "author";
+    -ms-grid-columns: minmax(284px, 650px);
     grid-template-columns: minmax(284px, 650px);
+    -ms-grid-rows: minmax(204px, min-content) 40px 1fr 40px 1fr;
+    grid-template-rows: minmax(204px, -webkit-min-content) 1fr 1fr;
     grid-template-rows: minmax(204px, min-content) 1fr 1fr;
   }
 }

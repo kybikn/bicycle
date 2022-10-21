@@ -1,3 +1,6 @@
+.bicycles__select {
+}
+
 @media screen and (max-width: 320px) {
   .bicycles__select {
     position: relative;
