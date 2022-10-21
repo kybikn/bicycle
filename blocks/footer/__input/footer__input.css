@@ -10,7 +10,7 @@
   background: #efefef;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 590px) {
   .footer__input {
     margin-bottom: 99px;
     padding-left: 0;

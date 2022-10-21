@@ -36,6 +36,7 @@
 @import url(../blocks/highway/__text/highway__text.css);
 @import url(../blocks/highway/__gallery/highway__gallery.css);
 @import url(../blocks/highway/__gallery-img/highway__gallery-img.css);
+@import url(../blocks/highway/__li/highway__li.css);
 @import url(../blocks/highway/__gallery-btns/highway__gallery-btns.css);
 @import url(../blocks/highway/__gallery-btn/highway__gallery-btn.css);
 @import url(../blocks/highway/__gallery-btn/_direction_left/highway__gallery-btn_direction_left.css);

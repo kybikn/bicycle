@@ -1,6 +1,9 @@
 .bicycles__box {
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  justify-content: center;
+  flex-wrap: wrap;
   gap: 30px;
 }
 
