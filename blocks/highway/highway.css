@@ -6,10 +6,15 @@
   align-items: start;
 }
 
+@media screen and (max-width: 590px) {
+  .highway {
+    padding: 120px 18px 40px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .highway {
     max-width: 100%;
-    padding: 120px 18px 40px;
     grid-row: repeat(3, min-content);
   }
 }

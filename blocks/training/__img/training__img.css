@@ -1,15 +1,21 @@
 .training__img {
+  max-width: 100%;
   grid-column: 2;
   grid-row: 1 / -1;
   justify-self: end;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 1068px) {
   .training__img {
-    max-width: 284px;
     margin: 40px 0 0;
     grid-column: 1;
     grid-row: 2 / 3;
     justify-self: stretch;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .training__img {
+    max-width: 284px;
   }
 }

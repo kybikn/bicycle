@@ -5,6 +5,13 @@
   align-items: start;
 }
 
+
+@media screen and (max-width: 1068px) {
+  .preview {
+    grid-template-columns: 1fr;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .preview {
     grid-template-columns: 1fr;
