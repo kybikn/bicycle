@@ -17,3 +17,8 @@
   left: 223px;
 }
 
+@media screen and (max-width: 410px) {
+  .preview__brand {
+    display: none;
+  }
+}
