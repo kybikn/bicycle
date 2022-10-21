@@ -1,5 +1,5 @@
 .highway__gallery-btns {
-  margin: 50px 0 0;
+  margin: 46px 0 0;
   display: flex;
   column-gap: 20px;
 }
@@ -7,10 +7,11 @@
 @media screen and (max-width: 320px) {
   .highway__gallery-btns {
     margin: 0;
+    padding: 0 2px 2px 0;
     grid-column: 2;
     grid-row: 1;
     justify-self: end;
     align-self: center;
-    column-gap: 10px;
+    column-gap: 9px;
   }
 }

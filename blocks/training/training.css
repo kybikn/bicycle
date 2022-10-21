@@ -1,5 +1,5 @@
 .training {
-  padding: 150px 120px 120px;
+  padding: 153px 120px 120px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: min-content 1fr;
@@ -8,7 +8,7 @@
 
 @media screen and (max-width: 320px) {
   .training {
-    padding: 80px 18px 60px;
+    padding: 77px 18px 60px;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, min-content);
   }
