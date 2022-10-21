@@ -1,7 +1,7 @@
 .training {
   padding: 150px 120px 120px;
   display: grid;
-  grid-template-columns: minmax(360px, 1fr) 650px;
+  grid-template-columns: minmax(360px, 1fr) 580px;
   grid-template-rows: min-content 1fr;
   align-items: start;
 }
