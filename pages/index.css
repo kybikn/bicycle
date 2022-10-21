@@ -62,7 +62,6 @@
 @import url(../blocks/circles/__dot/_active/circles__dot_active.css);
 /* Training */
 @import url(../blocks/training/training.css);
-@import url(../blocks/training/__text/training__text.css);
 @import url(../blocks/training/__title/training__title.css);
 @import url(../blocks/training/__subtitle/training__subtitle.css);
 @import url(../blocks/training/__apps/training__apps.css);

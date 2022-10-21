@@ -20,7 +20,6 @@
   left: 0;
 }
 
-
 @media screen and (max-width: 590px) {
   .highway__gallery {
     gap: 20px;

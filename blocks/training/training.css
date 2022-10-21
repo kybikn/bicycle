@@ -18,11 +18,3 @@
     padding: 77px 18px 60px;
   }
 }
-
-
-@media screen and (max-width: 320px) {
-  .training {
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(4, min-content);
-  }
-}
