@@ -2,9 +2,10 @@
   .circles {
     width: 22px;
     height: 4px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin: auto;
     gap: 5px;
-    /* margin-top: 22px; */
   }
 }

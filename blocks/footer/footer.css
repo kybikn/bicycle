@@ -3,7 +3,7 @@
   background: #efefef;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 590px) {
   .footer {
     padding: 60px 18px 25px;
   }

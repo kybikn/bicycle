@@ -15,12 +15,15 @@
 }
 
 .preview__link:hover {
+  -webkit-box-shadow: 0 0 0 10px rgba(9, 206, 75, 0);
   box-shadow: 0 0 0 10px rgba(9, 206, 75, 0);
+  -webkit-animation: pulse 1.3s;
   animation: pulse 1.3s;
 }
 
 @keyframes pulse {
   0% {
+    -webkit-box-shadow: 0 0 0 0 #09c63b;
     box-shadow: 0 0 0 0 #09c63b;
     color: #09c63b;
   }
