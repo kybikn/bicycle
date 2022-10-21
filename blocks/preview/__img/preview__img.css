@@ -9,7 +9,7 @@
 @media screen and (max-width: 320px) {
   .preview__img {
     width: 254px;
-    padding: 40px 18px 0 48px;
+    padding: 0 18px 0 48px;
     grid-column: 1;
     grid-row: 2 / 3;
   }

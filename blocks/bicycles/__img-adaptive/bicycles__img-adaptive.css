@@ -1,4 +1,7 @@
-@media screen and (max-width: 320px) {
+.bicycles__img-adaptive {
+}
+
+@media screen and (max-width: 590px) {
   .bicycles__img-adaptive {
     display: block;
     max-width: 254px;

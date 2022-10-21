@@ -1,6 +1,9 @@
 .bicycles__card {
   margin-top: 54px;
   padding-top: 66px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: start; */
 }
 
 @media screen and (max-width: 320px) {

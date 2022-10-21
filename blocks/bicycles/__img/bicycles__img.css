@@ -12,7 +12,13 @@
   transform: scale(1.05);
 }
 
-@media screen and (max-width: 320px) {
+/* @media screen and (max-width: 1024px) {
+  .bicycles__img {
+    max-width: 290px;
+    padding: 10px;
+  }
+} */
+@media screen and (max-width: 590px) {
   .bicycles__img {
     display: none;
   }

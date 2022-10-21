@@ -1,9 +1,17 @@
 .training {
   padding: 150px 120px 120px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: minmax(360px, 1fr) 650px;
   grid-template-rows: min-content 1fr;
   align-items: start;
+}
+
+@media screen and (max-width: 1140px) {
+  .training {
+    padding: 80px 18px 60px;
+    grid-template-columns: 1fr;
+    grid-template-rows: minmax(204px, min-content) 1fr 1fr;
+  }
 }
 
 @media screen and (max-width: 320px) {
