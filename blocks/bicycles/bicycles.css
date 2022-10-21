@@ -4,7 +4,7 @@
   position: relative;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 590px) {
   .bicycles {
     padding: 80px 18px 40px;
   }
