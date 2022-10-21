@@ -7,11 +7,11 @@
   background: #ebebeb;
   position: relative;
   cursor: pointer;
-  transition: all .2s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .highway__gallery-btn:hover {
-  background-color: #d1d1d1;
+  background-color: #24b473;
 }
 
 .highway__gallery-btn:active {
@@ -24,4 +24,3 @@
     height: 24px;
   }
 }
-
