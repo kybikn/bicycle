@@ -1,5 +1,5 @@
 .bicycles {
-  padding: 60px 120px 36px;
+  padding: 60px 120px 65px;
   margin: 0 auto;
   position: relative;
 }
@@ -10,7 +10,7 @@
   }
 
   .bicycles::before {
-    content: '';
+    content: "";
     width: 284px;
     position: absolute;
     top: 40px;
