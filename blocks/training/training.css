@@ -30,20 +30,21 @@
 }
 
 @media screen and (max-width: 320px) {
-  .training::before {
-    content: '';
-    width: 284px;
-    position: absolute;
-    top: 30px;
-    right: 18px;
-    bottom: 0;
-    left: 18px;
-    border-top: 1px solid #e3e3e3;
-
   .training {
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, -webkit-min-content);
     grid-template-rows: repeat(4, min-content);
+  }
+
+  .training::before {
+    content: '';
+    width: 284px;
+    position: absolute;
+    top: 39px;
+    right: 18px;
+    bottom: 0;
+    left: 18px;
+    border-top: 1px solid #e3e3e3;
   }
 }
