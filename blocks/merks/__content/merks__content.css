@@ -11,7 +11,7 @@
     "image author";
 }
 
-@media screen and (max-width: 1068px) {
+@media screen and (max-width: 1080px) {
   .merks__content {
     grid-row-gap: 40px;
     grid-template-areas:
