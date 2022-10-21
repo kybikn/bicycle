@@ -1,5 +1,0 @@
-.highway__li {
-  display: block;
-  width: calc((100% - 40px) / 2);
-  min-width: 284px;
-}

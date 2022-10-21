@@ -7,7 +7,7 @@
   background: #ebebeb;
   position: relative;
   cursor: pointer;
-  transition: all 0.5s ease-in-out;
+  transition: all .2s ease-in-out;
 }
 
 .highway__gallery-btn:hover {
@@ -24,3 +24,4 @@
     height: 24px;
   }
 }
+
