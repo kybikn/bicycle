@@ -1,5 +1,5 @@
 .preview__img {
-  padding-top: 20px;
+  padding-top: 19px;
   max-width: 100%;
   grid-column: 2;
   grid-row: 1 / -1;
@@ -9,7 +9,7 @@
 @media screen and (max-width: 320px) {
   .preview__img {
     width: 254px;
-    padding: 40px 18px 0 48px;
+    padding: 40px 1px 0 48px;
     grid-column: 1;
     grid-row: 2 / 3;
   }

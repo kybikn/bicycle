@@ -1,6 +1,6 @@
 .highway__subtitle {
   max-width: 460px;
-  margin: 50px 0 0;
+  margin: 43px 0 0;
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;
@@ -11,7 +11,7 @@
 @media screen and (max-width: 320px) {
   .highway__subtitle {
     max-width: 284px;
-    margin: 40px 0 0;
+    margin: 36px 0 0;
     font-size: 12px;
     line-height: 1.5;
     grid-column: 1 / -1;
