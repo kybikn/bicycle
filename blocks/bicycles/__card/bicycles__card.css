@@ -5,9 +5,3 @@
   flex-direction: column;
   /* justify-content: start; */
 }
-
-@media screen and (max-width: 320px) {
-  .bicycles__card {
-    display: none;
-  }
-}
