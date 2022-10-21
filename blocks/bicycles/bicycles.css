@@ -3,12 +3,6 @@
   margin: 0 auto;
 }
 
-/* @media screen and (max-width: 1024px) {
-  .bicycles {
-    padding: 60px 10px;
-  }
-} */
-
 @media screen and (max-width: 320px) {
   .bicycles {
     padding: 80px 18px 40px;
