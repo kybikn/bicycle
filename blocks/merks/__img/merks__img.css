@@ -7,6 +7,7 @@
 
 @media screen and (max-width: 320px) {
   .merks__img {
+    margin-top: 5px;
     max-width: 284px;
   }
 }

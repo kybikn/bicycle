@@ -2,7 +2,6 @@
   display: grid;
   grid-column-gap: 80px;
   grid-template-rows: 390px 1fr;
-  /* grid-template-columns: 650px 1fr; */
   grid-template-columns: 650px minmax(210px, 1fr);
   grid-template-areas:
     "image quote"
@@ -17,25 +16,12 @@
       "quote"
       "author";
     grid-template-columns: minmax(284px, 650px);
-    /* grid-template-rows: minmax(204px, 350px) 1fr 1fr; */
     grid-template-rows: minmax(204px, min-content) 1fr 1fr;
   }
 }
 @media screen and (max-width: 320px) {
   .merks__content {
-    /* display: grid; */
-    grid-row-gap: 40px;
-    /* grid-column-gap: 40px; */
-    grid-template-areas:
-      "image"
-      "quote"
-      "author";
-    /* grid-template-columns: 284px 1fr; */
-    /* grid-template-columns: 324px 1fr;
-    grid-template-rows: 204px 1fr 1fr; */
-    /* grid-template-columns: 1fr; */
     grid-template-columns: 284px;
     grid-template-rows: 204px 1fr 1fr;
-    /* margin-bottom: 50px; */
   }
 }

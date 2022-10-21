@@ -10,5 +10,6 @@
   .merks__quote-author {
     font-size: 14px;
     line-height: 22px;
+    /* margin-bottom: 0; */
   }
 }
