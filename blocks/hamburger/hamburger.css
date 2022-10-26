@@ -5,8 +5,9 @@
 @media screen and (max-width: 590px) {
   .hamburger {
     display: block;
-    position: absolute;
+    margin-right: 18px;
+    /* position: absolute;
     top: 26px;
-    right: 18px;
+    right: 18px; */
   }
 }

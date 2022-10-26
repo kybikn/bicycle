@@ -1,6 +1,6 @@
 .highway__gallery-btn_direction_left::before {
   content: "";
-  background: url(../../../../images/arrow_left.svg) no-repeat center;
+  background: url(../../../../images/arrow.svg) no-repeat center;
   position: absolute;
   top: 0;
   left: 0;
@@ -10,6 +10,6 @@
 
 @media screen and (max-width: 320px) {
   .highway__gallery-btn_direction_left::before {
-    background: url(../../../../images/arrow_left_adaptive.svg) no-repeat center;
+    background: url(../../../../images/arrow.svg) no-repeat center / 6px;
   }
 }

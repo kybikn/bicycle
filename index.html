@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Анастасия Кубатина и Бороков Мурат">
   <link rel="stylesheet" href="./pages/index.css">
   <link rel="icon" href="./images/favicon.ico">
   <title>Bicycle</title>
@@ -15,10 +16,15 @@
     <header class="header">
       <nav class="header__nav">
         <ul class="header__links">
-          <li class="header__li"><a href="#highway" class="header__link main-links">Покрытия&nbsp;и&nbsp;градиенты</a>
+          <li class="header__li">
+            <a href="#highway" class="header__link main-links">Покрытия&nbsp;и&nbsp;градиенты</a>
           </li>
-          <li class="header__li"><a href="#bicycles" class="header__link main-links">Велосипеды</a></li>
-          <li class="header__li"><a href="#training" class="header__link main-links">Тренировки</a></li>
+          <li class="header__li">
+            <a href="#bicycles" class="header__link main-links">Велосипеды</a>
+          </li>
+          <li class="header__li">
+            <a href="#training" class="header__link main-links">Тренировки</a>
+          </li>
         </ul>
       </nav>
       <div class="hamburger main-links">
@@ -57,9 +63,14 @@
           На шоссейном велосипеде можно ездить по асфальту на разных градиентах: будь то горы или равнины. Гонки
           проходят в командном пелотоне, но тренироваться можно и самостоятельно.
         </p>
+        <!-- убрать список -->
         <ul class="highway__gallery">
-          <li><img src="./images/david-dvoracek.jpg" alt="Горная дорога" class="highway__gallery-img"></li>
-          <li><img src="./images/sheldon-thompson.jpg" alt="Лесная дорога" class="highway__gallery-img invisible"></li>
+          <li>
+            <img src="./images/david-dvoracek.jpg" alt="Горная дорога" class="highway__gallery-img">
+          </li>
+          <li>
+            <img src="./images/sheldon-thompson.jpg" alt="Лесная дорога" class="highway__gallery-img invisible">
+          </li>
         </ul>
         <div class="highway__gallery-btns main-links">
           <button class="highway__gallery-btn highway__gallery-btn_direction_left"></button>
@@ -71,37 +82,50 @@
           <h2 class="bicycles__title">Велосипеды</h2>
           <nav>
             <ul class="bicycles__links">
-              <li class="bicycles__li"><a href="#" class="bicycles__link bicycles__link-active">Шоссе</a></li>
-              <li class="bicycles__li"><a href="#" class="bicycles__link">Грэвел</a></li>
-              <li class="bicycles__li"><a href="#" class="bicycles__link">TT</a>
+              <!-- сделать ссылки кнопками ? -->
+              <li class="bicycles__li">
+                <a href="#" class="bicycles__link bicycles__link-active main-links">Шоссе</a>
+              </li>
+              <li class="bicycles__li">
+                <a href="#" class="bicycles__link main-links">Грэвел</a>
+              </li>
+              <li class="bicycles__li">
+                <a href="#" class="bicycles__link main-links">TT</a>
               </li>
             </ul>
           </nav>
         </div>
         <div class="bicycles__select">
-          <select class="bicycles__list">
-            <option>Шоссе</option>
-            <option>Грэвел</option>
-            <option>TT</option>
+          <select class="bicycles__list" name="select">
+            <option value="highway" selected>Шоссе</option>
+            <option value="gravel">Грэвел</option>
+            <option value="tt">TT</option>
           </select>
         </div>
         <ul class="bicycles__box">
           <li class="bicycles__card bicycles__card-adaptive">
-            <img src="./images/bike1.png" alt="велосипед1" class="bicycles__img bicycles__img-adaptive scale">
             <a href="https://www.sigmasports.com/item/Cervelo/Caledonia-5-Ultegra-Disc-Road-Bike-2021/RDEN"
-              class="bicycles__text-link bicycles__text-link-adaptive main-links" target="_blank">Cervelo
-              Caledonia-5</a>
+              class="main-links" target="_blank">
+              <img src="./images/bike-cervelo.png" alt="велосипед Cervelo"
+                class="bicycles__img bicycles__img-adaptive scale">
+              <p class="bicycles__text-link bicycles__text-link-adaptive main-links">Cervelo
+                Caledonia-5</p>
+            </a>
           </li>
           <li class="bicycles__card">
-            <img src="./images/bike2.png" alt="велосипед2" class="bicycles__img">
             <a href="https://www.sigmasports.com/item/Cannondale/SystemSix-HiMOD-Ultegra-Di2-Disc-Road-Bike-2021/R82J"
-              class="bicycles__text-link main-links" target="_blank">Cannondale Systemsix
-              Himod</a>
+              class="main-links" target="_blank">
+              <img src="./images/bike-cannondale.png" alt="велосипед Cannondale" class="bicycles__img">
+              <p class="bicycles__text-link bicycles__text-link-adaptive main-links">Cannondale Systemsix
+                Himod</p>
+            </a>
           </li>
           <li class="bicycles__card">
-            <img src="./images/bike3.png" alt="велосипед3" class="bicycles__img">
             <a href="https://www.sigmasports.com/item/Trek/Domane-SL-7-Force-eTap-AXS-Disc-Road-Bike-2021/RULF"
-              class="bicycles__text-link main-links" target="_blank">Trek Domane SL-7</a>
+              class="main-links" target="_blank">
+              <img src="./images/bike-trek.png" alt="велосипед Trek" class="bicycles__img">
+              <p class="bicycles__text-link bicycles__text-link-adaptive main-links">Trek Domane SL-7</p>
+            </a>
           </li>
         </ul>
         <div class="circles">
@@ -118,20 +142,22 @@
             приложение Strava, а также это приложение позволит построить тренировочный план.
           </p>
           <ul class="training__apps">
-            <li><a href="https://www.strava.com" target="_blank" class="training__app-link main-links">Strava</a></li>
-            <li><a href="https://www.komoot.com" target="_blank" class="training__app-link main-links">Komoot</a></li>
+            <li>
+              <a href="https://www.strava.com" target="_blank" class="training__app-link main-links">Strava</a>
+            </li>
+            <li>
+              <a href="https://www.komoot.com" target="_blank" class="training__app-link main-links">Komoot</a>
+            </li>
           </ul>
         </div>
         <img src="./images/nicolas-solerieu.jpg" alt="Дорога в неизвестность" class="training__img">
       </section>
     </main>
     <footer class="footer">
-      <h3 class="footer__title">Подпишитесь на рассылку —</h3>
-      <form>
-        <input type="email" name="email" class="footer__input footer__input-text" placeholder="Ваш e-mail"
-          autocomplete="on" required>
-      </form>
-      <p class="footer__text">© Road Club 2022</p>
+      <h3 class="footer__title">Подпишитесь на рассылку &mdash;</h3>
+      <input type="email" name="email" class="footer__input footer__input-text" placeholder="Ваш e-mail"
+        autocomplete="on" required>
+      <p class="footer__text">&copy; Road Club 2022</p>
     </footer>
   </div>
 </body>
