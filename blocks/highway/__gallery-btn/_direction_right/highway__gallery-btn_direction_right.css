@@ -1,6 +1,7 @@
 .highway__gallery-btn_direction_right::before {
   content: "";
-  background: url(../../../../images/arrow_right.svg) no-repeat center;
+  background: url(../../../../images/arrow.svg) no-repeat center;
+  transform: rotate(180deg);
   position: absolute;
   top: 0;
   left: 4px;
@@ -10,6 +11,7 @@
 
 @media screen and (max-width: 320px) {
   .highway__gallery-btn_direction_right::before {
-    background: url(../../../../images/arrow_right_adaptive.svg) no-repeat center;
+    background: url(../../../../images/arrow.svg) no-repeat center / 6px;
+    transform: rotate(180deg);
   }
 }
