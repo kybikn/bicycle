@@ -41,6 +41,7 @@
 @import url(../blocks/highway/__gallery-btn/_direction_left/highway__gallery-btn_direction_left.css);
 @import url(../blocks/highway/__gallery-btn/_direction_right/highway__gallery-btn_direction_right.css);
 /* Bicycles */
+@import url(../blocks/bicycles/slider/slider.css);
 @import url(../blocks/bicycles/bicycles.css);
 @import url(../blocks/bicycles/__header/bicycles__header.css);
 @import url(../blocks/bicycles/__box/bicycles__box.css);

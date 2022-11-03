@@ -1,4 +1,5 @@
 .bicycles__select {
+  display: none;
 }
 
 @media screen and (max-width: 320px) {

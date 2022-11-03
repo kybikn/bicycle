@@ -8,5 +8,13 @@
     -webkit-transition: 1s;
     -o-transition: 1s;
     transition: 1s;
+
+    /* display: inline-block; */
+    /* height: 4px; */
+    /* margin: 0; */
+    /* position: relative; */
+    /* width: 4px; */
+    /* border-radius: 50%; */
+    /* background: #cacaca; */
   }
 }

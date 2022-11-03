@@ -11,6 +11,16 @@
 
 @media screen and (max-width: 320px) {
   .bicycles__card {
-    display: none;
+    /* display: block; */
+    position: relative;
+    padding-top: 20px;
+    /* display: flex; */
+    /* text-align: center; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* max-height: 305px;
+    max-width: 284px; */
+    /* opacity: 0; */
+    /* position: absolute; */
   }
 }

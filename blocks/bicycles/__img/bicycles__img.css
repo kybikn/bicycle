@@ -14,6 +14,19 @@
 
 @media screen and (max-width: 590px) {
   .bicycles__img {
-    display: none;
+    padding: 15px 15px 37px;
+    object-fit: contain;
+    /* margin: 0; */
+    max-width: 254px;
+    /* display: block; */
+    margin-bottom: 20px;
+    position: relative;
+    display: flex;
+    /* text-align: center; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* width: 254px;
+    height: 254px; */
+    /* padding: 15px 15px 36px; */
   }
 }
