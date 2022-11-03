@@ -18,7 +18,9 @@
 
 @media screen and (max-width: 320px) {
   .bicycles__box {
-    flex-direction: column;
-    gap: 0;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
   }
 }

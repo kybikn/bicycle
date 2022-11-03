@@ -1,9 +1,10 @@
 .bicycles__select {
+  display: none;
 }
 
 @media screen and (max-width: 320px) {
   .bicycles__select {
-    position: relative;
+    /* position: relative; */
     display: block;
   }
 }
