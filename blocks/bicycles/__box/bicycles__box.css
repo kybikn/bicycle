@@ -24,5 +24,10 @@
     overflow: hidden;
     height: 100%;
     width: 100%;
+
+    /* position: relative; */
+    /* height: 305px;
+    width: 284px;
+    margin: 0 auto; */
   }
 }

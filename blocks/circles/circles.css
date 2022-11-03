@@ -7,7 +7,10 @@
     display: flex;
     margin: auto;
     gap: 5px;
-
+    position: absolute;
+    top: 50px;
+    /* z-index: 5; */
+    /* position: relative; */
     /* text-align: center;
     margin-top: 10px; */
   }
