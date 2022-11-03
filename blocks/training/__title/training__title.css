@@ -18,6 +18,7 @@
 
 @media screen and (max-width: 320px) {
   .training__title {
+    margin-top: 4px;
     max-width: 284px;
     font-size: 32px;
   }

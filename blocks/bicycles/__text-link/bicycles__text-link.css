@@ -9,22 +9,14 @@
 
 @media screen and (max-width: 590px) {
   .bicycles__text-link {
-    /* display: block; */
     position: absolute;
-    /* left: 72px; */
-    bottom: 35px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    bottom: 15px;
     z-index: 1;
-    /* margin: 0; */
     font-size: 14px;
     line-height: 18px;
-    /* left: 50%; */
     display: flex;
-    /* align-items: center;
-    justify-items: center; */
-    /* text-align: center; */
-    /* align-items: center; */
-    /* justify-content: center; */
-    /* bottom: 20px; */
     margin-left: 0;
   }
 }

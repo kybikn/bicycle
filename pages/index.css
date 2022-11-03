@@ -1,19 +1,17 @@
-/* Normalize */
 @import url(../vendor/normalize.css);
-/* Fonts */
 @import url(../vendor/fonts/fonts.css);
-/* Global */
+
 @import url(../blocks/page/page.css);
-/* Header */
+
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__nav/header__nav.css);
-@import url(../blocks/main-links/main-links.css);
+@import url(../blocks/links/links.css);
 @import url(../blocks/header/__links/header__links.css);
 @import url(../blocks/header/__li/header__li.css);
 @import url(../blocks/header/__link/header__link.css);
 @import url(../blocks/hamburger/hamburger.css);
 @import url(../blocks/hamburger/__line/hamburger__line.css);
-/* Preview */
+
 @import url(../blocks/preview/preview.css);
 @import url(../blocks/preview/__text/preview__text.css);
 @import url(../blocks/preview/__title/preview__title.css);
@@ -22,7 +20,7 @@
 @import url(../blocks/invisible/invisible.css);
 @import url(../blocks/preview/__brand/preview__brand.css);
 @import url(../blocks/preview/__img/preview__img.css);
-/* Merks */
+
 @import url(../blocks/merks/merks.css);
 @import url(../blocks/merks/__content/merks__content.css);
 @import url(../blocks/merks/__img/merks__img.css);
@@ -30,7 +28,7 @@
 @import url(../blocks/merks/__quote-author/merks__quote-author.css);
 @import url(../blocks/merks/__quote-author-subline/merks__quote-author-subline.css);
 @import url(../blocks/merks/__text/merks__text.css);
-/* Highway */
+
 @import url(../blocks/highway/highway.css);
 @import url(../blocks/highway/__title/highway__title.css);
 @import url(../blocks/highway/__subtitle/highway__subtitle.css);
@@ -40,35 +38,34 @@
 @import url(../blocks/highway/__gallery-btn/highway__gallery-btn.css);
 @import url(../blocks/highway/__gallery-btn/_direction_left/highway__gallery-btn_direction_left.css);
 @import url(../blocks/highway/__gallery-btn/_direction_right/highway__gallery-btn_direction_right.css);
-/* Bicycles */
+
 @import url(../blocks/bicycles/slider/slider.css);
 @import url(../blocks/bicycles/bicycles.css);
 @import url(../blocks/bicycles/__header/bicycles__header.css);
-@import url(../blocks/bicycles/__box/bicycles__box.css);
 @import url(../blocks/bicycles/__title/bicycles__title.css);
-@import url(../blocks/bicycles/__links/bicycles__links.css);
-@import url(../blocks/bicycles/__link/bicycles__link.css);
-@import url(../blocks/bicycles/__link-active/bicycles__link-active.css);
-@import url(../blocks/bicycles/__li/bicycles__li.css);
-@import url(../blocks/bicycles/__card/bicycles__card.css);
-@import url(../blocks/bicycles/__card-adaptive/bicycles__card-adaptive.css);
+@import url(../blocks/bicycles/__nav-links/bicycles__nav-links.css);
+@import url(../blocks/bicycles/__nav-li/bicycles__nav-li.css);
+@import url(../blocks/bicycles/__nav-link/bicycles__nav-link.css);
+@import url(../blocks/bicycles/__nav-link/_active/bicycles__nav-link_active.css);
 @import url(../blocks/bicycles/__select/bicycles__select.css);
 @import url(../blocks/bicycles/__list/bicycles__list.css);
+@import url(../blocks/bicycles/__wrapper/bicycles__wrapper.css);
+@import url(../blocks/bicycles/__input/bicycles__input.css);
+@import url(../blocks/bicycles/__box/bicycles__box.css);
+@import url(../blocks/bicycles/__card/bicycles__card.css);
+@import url(../blocks/bicycles/__link/bicycles__link.css);
 @import url(../blocks/bicycles/__img/bicycles__img.css);
-@import url(../blocks/bicycles/__img-adaptive/bicycles__img-adaptive.css);
 @import url(../blocks/bicycles/__text-link/bicycles__text-link.css);
-@import url(../blocks/bicycles/__text-link-adaptive/bicycles__text-link-adaptive.css);
 @import url(../blocks/circles/circles.css);
 @import url(../blocks/circles/__dot/circles__dot.css);
-@import url(../blocks/circles/__dot/_active/circles__dot_active.css);
-/* Training */
+
 @import url(../blocks/training/training.css);
 @import url(../blocks/training/__title/training__title.css);
 @import url(../blocks/training/__subtitle/training__subtitle.css);
 @import url(../blocks/training/__apps/training__apps.css);
 @import url(../blocks/training/__app-link/training__app-link.css);
 @import url(../blocks/training/__img/training__img.css);
-/* Footer */
+
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__title/footer__title.css);
 @import url(../blocks/footer/__input/footer__input.css);

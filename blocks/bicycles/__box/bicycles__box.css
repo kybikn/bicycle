@@ -18,16 +18,9 @@
 
 @media screen and (max-width: 320px) {
   .bicycles__box {
-    /* display: flex;
-    flex-direction: row; */
     flex-wrap: nowrap;
     overflow: hidden;
     height: 100%;
     width: 100%;
-
-    /* position: relative; */
-    /* height: 305px;
-    width: 284px;
-    margin: 0 auto; */
   }
 }

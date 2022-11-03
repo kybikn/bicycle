@@ -1,6 +1,3 @@
-.bicycles__list {
-}
-
 @media screen and (max-width: 320px) {
   .bicycles__list {
     display: block;

@@ -1,12 +1,11 @@
 .bicycles {
   padding: 60px 120px 65px;
   margin: 0 auto;
-  position: relative;
 }
 
 @media screen and (max-width: 590px) {
   .bicycles {
-    padding: 80px 18px 40px;
+    padding: 80px 18px 65px;
   }
 
   .bicycles::before {
