@@ -9,8 +9,20 @@
   flex-direction: column;
 }
 
-@media screen and (max-width: 320px) {
+.bicycles__card:hover .bicycles__text-link {
+  color: #24b473;
+}
+
+@media screen and (max-width: 1280px) {
   .bicycles__card {
-    display: none;
+    padding-top: 40px;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .bicycles__card {
+    padding-top: 0;
+    opacity: 0;
+    position: absolute;
   }
 }

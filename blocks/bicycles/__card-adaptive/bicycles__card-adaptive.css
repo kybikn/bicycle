@@ -1,7 +1,0 @@
-@media screen and (max-width: 320px) {
-  .bicycles__card-adaptive {
-    display: block;
-    position: relative;
-    padding-top: 20px;
-  }
-}

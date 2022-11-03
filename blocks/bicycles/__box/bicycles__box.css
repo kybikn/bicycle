@@ -16,9 +16,17 @@
   padding-left: 0;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 920px) {
   .bicycles__box {
-    flex-direction: column;
-    gap: 0;
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .bicycles__box {
+    flex-wrap: nowrap;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
   }
 }
