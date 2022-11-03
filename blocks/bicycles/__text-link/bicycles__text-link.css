@@ -7,7 +7,7 @@
   color: #151515;
 }
 
-@media screen and (max-width: 590px) {
+@media screen and (max-width: 840px) {
   .bicycles__text-link {
     position: absolute;
     left: 50%;

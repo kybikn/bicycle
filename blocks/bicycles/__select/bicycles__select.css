@@ -2,9 +2,8 @@
   display: none;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 590px) {
   .bicycles__select {
-    /* position: relative; */
     display: block;
   }
 }
